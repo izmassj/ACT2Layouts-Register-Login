@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="Exercicis Activities"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <activity android:name=".Exercise10VerticalActivity" />
+        <activity android:name=".Exercise10HorizontalActivity" />
+        <activity android:name=".Exercise10MenuActivity" />
+        <activity android:name=".Exercise9MatriculacioActivity" />
+        <activity android:name=".Exercise8LoginActivity" />
+        <activity android:name=".RegisterConstraintActivity" />
+        <activity android:name=".RegisterRelativeActivity" />
+        <activity android:name=".RegisterLinearActivity" />
+        <activity android:name=".Exercise7MenuActivity" />
+        <activity android:name=".Exercise6Activity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

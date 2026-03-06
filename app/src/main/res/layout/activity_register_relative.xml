@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitleRelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registre - RelativeLayout"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etNomRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitleRelative"
+            android:layout_marginTop="12dp"
+            android:hint="Nom" />
+
+        <EditText
+            android:id="@+id/etCognomRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etNomRelative"
+            android:layout_marginTop="8dp"
+            android:hint="Cognom" />
+
+        <EditText
+            android:id="@+id/etEdatRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etCognomRelative"
+            android:layout_marginTop="8dp"
+            android:hint="Edat"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etUsuariRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etEdatRelative"
+            android:layout_marginTop="8dp"
+            android:hint="Usuari"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/etPassRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etUsuariRelative"
+            android:layout_marginTop="8dp"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnEnviarRelative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etPassRelative"
+            android:layout_marginTop="16dp"
+            android:text="Enviar" />
+
+    </RelativeLayout>
+</ScrollView>

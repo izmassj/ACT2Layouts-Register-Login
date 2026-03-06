@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercici 10 - Horitzontal"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Botons horitzontals -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B1" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="B2"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="B3 (doble)"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- Navegació -->
+    <Button
+        android:id="@+id/btnGoVerticalFromHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anar a Vertical"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnBackEx10MenuFromHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tornar"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
